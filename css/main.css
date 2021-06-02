@@ -93,6 +93,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row-wrap;
 
 }
 
@@ -104,6 +105,10 @@ header{
 }
 
 header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
 
 }
 
@@ -116,6 +121,10 @@ header figure {
 }
 
 header nav {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-flow: row-wrap;
 
 }
 
@@ -126,14 +135,28 @@ header nav {
 }
 
 aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
+
 
 }
 
-.content-wraper{
+.featues features-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
 
 }
-
+.reviews{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
+}
 
 
 /*footer*/
@@ -144,15 +167,24 @@ footer {
 
 /*--------------- Mobile Style - About Page--------------*/
 
-.content-wrapper{
+
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
 
 }
 
-.mission-content{
+mission-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
+
 
 }
-
-
 
 .content-wrapper{
 
@@ -165,6 +197,10 @@ footer {
 
 
 .chat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
 
 }
 .content-wrapper{
@@ -186,16 +222,32 @@ footer {
 /*------------------Mobile Style - FAQ Page--------------------*/
 
 
-.content-wrapper{
+f&q .content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
 
 }
 
+
+
 footer .content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
+
 
 }
 
 
 .footer-content{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
 
 }
 
